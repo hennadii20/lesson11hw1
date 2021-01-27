@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+    /*the left side of <header> */
+.header{
+    display: block;
+    width: 1500px;
+    height: 1000px;
+    background-image: url('backgroundPicture.jpg');
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0 140px;
+}
+    
+.header__section {   
+    display: inline-block;
+    float: left;
+    width: 370px;
+    height: 680px;
+    padding-top: 40px;
+}
+
+.header__section__logo{
+    margin-left: 0;
+}
+
+.header__section__headline {
+    font-size: 60px;
+    font-family: "Raleway";
+    padding-top: 240px;
+    margin: 0;
+}
+
+.header__section__context{
+    font-family: "Raleway-light", sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+    opacity: .5;
+}
+
+.header__section__btn {
+    width: 200px;
+    height: 55px;
+    background-color: #ff6033;
+    border: 0 hsl(0, 0%, 100%, .1);
+    box-shadow: 0 2px 5px  rgb(176, 135, 125, .5);
+    font-size: 20px; 
+    font-family: "Raleway-light", sans-serif;
+    font-weight:lighter;
+    color: hsl(0, 0%, 100%, .4);
+}
+
+        /* the navigation bar*/
+.nav {
+    display: inline-block;
+    width: 840px;
+    height: 680px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    width: 580px;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 500px;
+    margin-top: 50px;
+}
+
+.navbar__item{
+    display: block;
+    border: 1px solid hsl(0, 22%, 96%);
+    margin: 0  20px 20px 20px;
+    flex-basis: 2vw;
+}
+
+.navbar__item__title{
+    padding: 0;
+    font-family: "Raleway";
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    opacity: .5;
+}
+
+        /* the active item of navigation bar*/
+.navbar__item--active {
+    border-top: 4px solid #ff6033;
+}
+
+.dishsection{
+    display: block;
+     width: 1500px;
+     height: 700px;
+     background-color: #00c4c4;
+     margin: 0 auto;
+}
+
+ .dishsection__plate {
+    display: inline-block;
+    float: left;
+    margin-left: 70px;
+    opacity: 1;
+}
+
+ .dishsection__description {
+     display: inline-block;
+     width: 480px;
+     height: 400px;
+ }
+
+.title {
+    font-family: "Raleway-light", sans-serif;
+    font-size: 90px;
+    color: white;
+    margin: 0 10px 20px;
+    padding-left: 50px;   
+    padding-top: 150px;
+}
+
+.title__info {
+    font-family: "Raleway-light", sans-serif;
+    font-size: 17px;
+    color: white;
+    padding-left: 50px;
+ }
